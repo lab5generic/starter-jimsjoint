@@ -64,7 +64,6 @@ class Orders extends MY_Model {
                 $menu = $CI->menu->get($item->item);
                 $gotem[$menu->category] = 1;
             }
-            print_r($gotem);
         return isset($gotem['m']) && isset($gotem['d']) && isset($gotem['s']);
     }
 
